@@ -1,6 +1,4 @@
 $(function () {
-
-    let checkList = null;
     let userId = null;
     // console.dir(window.location.href)
     let params = window.location.href.queryURLParams();

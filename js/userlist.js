@@ -108,7 +108,7 @@ $(function () {
             // checkList是下面所有的小框框
             checkList.prop("checked", checked)
         });
-
+        
         $("tbody").on("click", "input", e => {
             if (e.target.tagName === "INPUT") {
                 let flag = true;
